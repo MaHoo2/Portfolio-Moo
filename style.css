@@ -1,6 +1,7 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Rubik+Doodle+Shadow&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +10,16 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background:linear-gradient(
+      to right,
+      #baffc9,
+      #baffdc,
+      #bafeff,
+      #bae1ff,
+      #babdff
+    );
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -31,6 +41,7 @@ a,
 nav,
 .nav-links {
   display: flex;
+  font-family: 'Charm', cursive; ;
 }
 
 nav {
@@ -52,7 +63,8 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: transparent;
+  text-shadow: 5px 5px white;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -432,7 +444,25 @@ footer p {
 }
 
 /* image */
+
 .img-round {
   border-radius: 50%;
+  border: 5px solid white;
+}
 
+.img-round :hover {
+  border-radius: 50%;
+  border: 15px solid lightgray;
+}
+
+/* nav bar [2] */
+/* #desktop-nav {
+  position: sticky;
+  top: 0;
+} */
+
+.about-pic , video {
+width: 200px;
+height: auto;
+  
 }
