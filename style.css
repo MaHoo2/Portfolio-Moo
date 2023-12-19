@@ -463,7 +463,7 @@ footer p {
 /* image */
 
 .img-round {
-  border-radius: 50%;
+  border-radius: 30%;
   border: 5px solid white;
 }
 
@@ -478,8 +478,15 @@ footer p {
   top: 0;
 } */
 
-.about-pic , video {
+/* .about-pic , video {
 width: 200px;
 height: auto;
   border-radius: 50%;
+} */
+
+#about-img-left {
+  border-radius: 80%;
+  border: white solid 5px;
+  width: 100%;
+  height: 100%;
 }
